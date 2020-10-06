@@ -1,12 +1,12 @@
 :root {
   /* light theme color */
-  --background: #fefefe;
-  --background-secondary: #f4efe1;
-  --header: #fbfbfb;
-  --color: #333;
-  --color-code: #c7254e;
-  --color-secondary: #999;
-  --border-color: #eed1d1;
+  --background: #fefefe; /* jyny */
+  --background-secondary: #f4efe1; /* jyny */
+  --header: #fbfbfb; /* jyny */
+  --color: #333; /* jyny */
+  --color-code: #c7254e; /* jyny */
+  --color-secondary: #999; /* jyny */
+  --border-color: #eed1d1; /* jyny */
 
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);
@@ -15,13 +15,13 @@
 
 body.dark-theme {
   /* dark theme colors */
-  --background: #333;
-  --background-secondary: #464643;
-  --header: #363636;
-  --color: #fefefe;
-  --color-code: #ec4c4c;
-  --color-secondary: #777;
-  --border-color: #615252;
+  --background: #333; /* jyny */
+  --background-secondary: #464643; /* jyny */
+  --header: #363636; /* jyny */
+  --color: #fefefe; /* jyny */
+  --color-code: #ec4c4c; /* jyny */
+  --color-secondary: #777; /* jyny */
+  --border-color: #615252; /* jyny */
 }
 
 @custom-media --phone (width < 684px);
